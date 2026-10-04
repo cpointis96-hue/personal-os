@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+dist/
+target/
+*.lock
+!src-tauri/Cargo.lock
+.claude/
+.codex/
+**/CLAUDE.md
+
+# Environment
+.env
+.env.local
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tauri
+src-tauri/target/
+src-tauri/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Aider (abandoned tool)
+.aider*

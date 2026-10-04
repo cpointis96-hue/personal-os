@@ -1,0 +1,28 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/capabilities.schema.json",
+  "identifier": "main",
+  "description": "Main window capabilities",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "sql:default",
+    "sql:allow-execute",
+    "dialog:default",
+    {
+      "identifier": "shell:allow-execute",
+      "allow": [
+        { "name": "zsh", "cmd": "/bin/zsh", "args": true, "sidecar": false },
+        { "name": "bash", "cmd": "/bin/bash", "args": true, "sidecar": false },
+        { "name": "gallery-dl", "cmd": "gallery-dl", "args": true, "sidecar": false },
+        { "name": "which", "cmd": "which", "args": true, "sidecar": false },
+        { "name": "yt-dlp", "cmd": "yt-dlp", "args": true, "sidecar": false },
+        { "name": "pip3", "cmd": "pip3", "args": true, "sidecar": false },
+        { "name": "mlx_whisper", "cmd": "mlx_whisper", "args": true, "sidecar": false }
+      ]
+    },
+    "shell:allow-spawn",
+    "shell:allow-kill",
+    "shell:allow-stdin-write",
+    "core:webview:allow-create-webview-window"
+  ]
+}
