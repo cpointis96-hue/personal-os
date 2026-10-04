@@ -9,8 +9,7 @@ target/
 **/CLAUDE.md
 
 # Environment
-.env
-.env.local
+.env*
 .DS_Store
 
 # IDE
