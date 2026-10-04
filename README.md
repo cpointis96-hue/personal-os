@@ -1,6 +1,16 @@
 # Personal OS
 
-Prototype de cockpit desktop : navigateur, YouTube, terminal, chat OpenRouter, extraction yt-dlp et fil X. Tauri2/Rust, React19/TypeScript, grille redimensionnable, Zustand, SQLite et webviews natives. Pas une application déclarée prête pour la production.
+## En bref
+
+**Ce que c’est :** un cockpit desktop qui rassemble navigateur, terminal, chat, extraction vidéo et fil de veille dans une même interface.
+
+**À quoi il sert :** organiser plusieurs panneaux redimensionnables et préparer un espace de travail personnel autour de ces usages.
+
+**Ce qui a été réalisé :** frontend web, sélecteur de panneaux, grille redimensionnable et intégration prévue des services navigateur, yt-dlp, OpenRouter et SQLite.
+
+**Technologies :** Tauri 2, Rust, React 19, TypeScript, Zustand, SQLite et webviews natives.
+
+Le frontend est construit ; l’application native complète et les connexions aux services restent à vérifier.
 
 ![Sélecteur de panneaux dans le frontend web](docs/screenshots/frontend-panel-selector.png)
 
