@@ -31,7 +31,7 @@ X/yt-dlp supposent leurs outils externes ; le chat demande une clé OpenRouter p
 ## État et reprise
 
 - Six types de panneau et commandes Rust présents, sans validation de chaque parcours. Création d’un panneau vide et sélecteur exercés dans Chromium.
-- Lint bloqué : `eslint.config.js` importe `typescript-eslint`, non déclaré dans les dépendances. Corriger cette configuration avant de revendiquer le lint.
+- L'outillage lint charge après ajout de `typescript-eslint`8.59.1 et déclaration directe de `@eslint/js`9.39.4. `npm run lint` signale encore quatre erreurs et douze avertissements dans le code préexistant ; le lint ne passe pas. Aucun correctif applicatif dans cette préparation.
 - Audit installation : huit alertes (six élevées, une modérée, une faible), à revoir avant distribution.
 - Build : chunk JavaScript746kB, avertissement de taille ; aucune mesure de mémoire ou démarrage revendiquée.
 - Après déblocage Apple : vérifier SQLite, webviews, PTY, téléchargements synthétiques et persistance, puis refaire captures natives.
