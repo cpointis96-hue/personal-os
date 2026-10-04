@@ -39,3 +39,7 @@ X/yt-dlp supposent leurs outils externes ; le chat demande une clé OpenRouter p
 Snapshot de l’état local incluant les ajouts non committés, source originale à `9da1f75e31edc57f53daecbac4d8a8b1cb432010`, intacte. Historique d’anciens scripts/configurations non réévalués, notes d’agents, lanceur à chemin local, caches et données personnelles exclus.
 
 Voir [VERIFICATION.md](VERIFICATION.md).
+
+## Dépôt et téléchargement
+
+[Voir le dépôt](https://github.com/cpointis96-hue/personal-os) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/personal-os/archive/HEAD.zip). Le ZIP contient les sources ; aucun bundle macOS nouvellement vérifié n’est inclus.
